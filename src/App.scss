@@ -1,48 +1,9 @@
-.student-name {
-  font-size: 30px;
-  color: green;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.links {
-  display: flex;
-  gap: 20px;
-
-  .link {
-    text-decoration: none;
-  }
-}
-
-.profile-img-container {
+.App {
   padding: 20px;
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-
-  .profile-img-1 {
-    border: 1px solid;
-  }
-
-  .profile-img-2 {
-    border: 1px dashed;
-  }
-}
-
-.imgData {
-  width: max-content;
-  margin-left: 20px;
-  margin-top: 20px;
-  padding: 20px;
-  border: 2px solid;
-  display: flex;
-  gap: 30px;
-
-  img {
-    border: 3px solid;
-    border-radius: 50%;
-    width: 120px;
-
-    &:hover {
-      border: 3px solid red;
-    }
-  }
 }
