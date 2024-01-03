@@ -1,18 +1,16 @@
 .resume {
-  // width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 30px;
+  gap: 10px;
 
   .info {
-    // width: 100%;
     display: flex;
     justify-content: center;
   }
 
   .social-links {
-    // width: 100%;
+    margin-top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;

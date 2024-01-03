@@ -20,6 +20,19 @@ const Resume = () => {
           )) }
         </div>
       )
+    } else if (node.attribs && node.attribs.id === 'experience') {
+      // console.log(node.children);
+      return (
+        <div className='experience'>
+          { node.children.map((child, index) => (
+            child.tag && child.tag === 'h3' ? (
+              <h3 key={ index }>{ child.children[0].data }</h3>
+            ) : (
+              <p key={ index }>{ child.children[0].data || console.log(child.children) }</p>
+            )
+          )) }
+        </div>
+      )
     }
   }
 
